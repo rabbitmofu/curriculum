@@ -1,0 +1,47 @@
+/* ウィンドウ幅が最大479pxまでの場合 */
+
+@media screen and (max-width:479px){
+    
+    #wrapper {
+        width: 200px;
+    }
+
+    .navy {
+        width: 200px; height: auto;
+    }
+    .red1 {
+        margin-bottom: 0;
+        margin-right: 70px;
+        border-bottom: 0;
+    }
+    .red2 {
+        margin-right: 70px;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-bottom: 0;
+    }
+    
+    .red3 {
+        margin-right: 70px;
+        margin-top: 0;
+    } 
+
+    .bluegreen {
+        width: 200px;
+    }
+
+    .winered {
+        width: 200px;
+    }
+
+    .orange1 {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .orange2 {
+        margin-left: 30px;
+    } 
+    .orange3 {
+        margin-left: 30px;
+    }
+}

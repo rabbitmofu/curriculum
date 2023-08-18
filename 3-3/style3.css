@@ -1,0 +1,75 @@
+#wrapper {
+    margin: 0 auto;
+    width: 400px; height: 450px;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.navy {
+    height: 100px; 
+    background-color: #141f40;
+}
+
+/* わからーーん。。clearfix 使っても使わなくても、同じ位置になる。 */
+
+.red1 {
+    height: 40px; width: 40px;
+    background-color: #a9004b;
+    border: solid 10px white;
+    float: right;
+    margin: 20px 20px 20px 0;
+}
+
+.red2, .red3 {
+    height: 40px; width: 40px;
+    background-color: #a9004b;
+    border: solid 10px white;
+    float: right;
+    margin: 20px 0 20px 0;
+}
+
+.bluegreen {
+    height: 250px; width: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.winered {
+    height: 250px; width: 250px;
+    background-color: #8c2727;
+    float: left;
+}
+
+.orange1 {
+    height: 40px; width: 140px;
+    background-color: #ff863f;
+    border: solid 5px #ffffff;
+    margin: 40px 60px 0 40px;
+}
+
+.orange2 {
+    height: 40px; width: 140px;
+    background-color: #ff863f;
+    border: solid 5px #ffffff;
+    margin: 10px 60px 10px 40px;
+}
+
+.orange3 {
+    height: 40px; width: 140px;
+    background-color: #ff863f;
+    border: solid 5px #ffffff;
+    margin: 10px 60px 10px 40px;
+}
+
+.ocher {
+    height: 150px; width: auto;
+    background-color: #d98d30;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

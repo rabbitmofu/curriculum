@@ -1,0 +1,83 @@
+/* ウィンドウ幅が767pxまでの場合 */
+
+@media screen and (max-width: 767px){
+    
+    .wrapper {
+        width: 300px;
+    }
+    
+    .left-yellow-green {
+        width: 100px;
+    
+    }
+
+    .yellow {
+        width: 125px;
+
+    }
+
+    .right-salmon {
+        width: 75px;
+        
+        }
+
+    .cyan {
+        width: 125px;
+    }
+
+    .under-winered {
+        width: 200px;
+    }
+
+}
+
+/* 767px OK */
+
+/* ウィンドウ幅が最大479pxまでの場合 */
+
+@media screen and (max-width: 479px) {
+
+    .wrapper {
+        width: 150px;
+        height: 650px;
+    }
+
+    .header {
+        width: 150px;
+        height: 100px;
+    }
+
+    .left-yellow-green{
+        width: 150px;
+        height: 100px;
+    }
+    .right-salmon {
+        width: 150px;
+        height: 100px;
+    }
+
+    .yellow{
+        width: 150px;
+    }
+
+    .cyan {
+        width: 150px;
+    }
+
+    .under-winered {
+        width: 150px;
+    }
+    
+    .footer {
+        width: 150px;
+        bottom: 0;
+        margin-bottom: -20px;
+        position: absolute;
+        
+    }
+
+
+
+}
+/* footerでてこないーーーーー*/
+        
