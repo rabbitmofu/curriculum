@@ -23,7 +23,15 @@
     margin: 20px 20px 20px 0;
 }
 
-.red2, .red3 {
+.red2{
+    height: 40px; width: 40px;
+    background-color: #a9004b;
+    border: solid 10px white;
+    float: right;
+    margin: 20px 0 20px 0;
+}
+
+.red3 {
     height: 40px; width: 40px;
     background-color: #a9004b;
     border: solid 10px white;
